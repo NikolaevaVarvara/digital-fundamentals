@@ -10,7 +10,7 @@ do
 		if [[ $age -lt $min ]]
         	then
 			min=$age
-		elif [[ $age -gt $max1 ]]
+		elif [[ $age -gt $max ]]
 		then
 			max=$age
 		fi
@@ -18,5 +18,6 @@ do
 done
 echo $min
 echo $max
+
 
 
